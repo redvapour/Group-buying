@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录</title>
+    <meta
+      name="description"
+      content="北京美团网精选北京美食餐厅,酒店预订,电影票,旅游景点,外卖订餐,北京团购信息,您可查询商家评价店铺信息。北京生活,下载美团官方APP ,吃喝玩乐1折起。"
+    />
+    <meta name="keywords" content="北京美食,北京酒店,北京团购" />
+    <!-- 网页图标 -->
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <!-- 基础样式 -->
+    <link rel="stylesheet" href="./css/bace.css" />
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="./font/icomoon/style.css" />
+    <!-- 注册页面样式 -->
+    <link rel="stylesheet" href="./css/login.css" />
+    <!-- 底部样式 -->
+    <link rel="stylesheet" href="./css/com_footer.css" />
+    <!-- 注册页面js -->
+    <script src="./js/login.js"></script>
+  </head>
+  <body>
+    <!-- 头部导航条 -->
+    <div class="nav">
+      <div class="nav-center">
+        <!-- 导航条左侧 logo -->
+        <div class="nav-center-left">
+          <h1>
+            <a href="index.html" target="_self" title="美团购">
+              <img src="./images/logo.png" />美团购
+            </a>
+          </h1>
+        </div>
+        <!-- 导航条右侧 -->
+        <div class="nav-center-right">
+          没有美团账号？
+          <a href="./register.html" target="_self">注册</a>
+        </div>
+      </div>
+    </div>
+    <!-- 登录区域 -->
+    <div class="login">
+      <div class="login-center">
+        <div class="login-left-img">
+          <img src="./images/loginrun.jpg" alt="登录图片" />
+        </div>
+        <div class="login-right-form">
+          <div>
+            <span>账户登录</span>
+            <span class="right">手机动态码登录</span>
+          </div>
+          <div>
+            <span>&nbsp;+86&nbsp;&gt;</span>
+            <input type="text" id="username" />
+            <span class="display-none" id="is_user"></span>
+          </div>
+          <div>
+            <span class="icon-locked">&nbsp;&gt;</span>
+            <input type="text" id="password" />
+            <span class="display-none" id="is_pass"></span>
+          </div>
+          <div>忘记密码</div>
+          <div>
+            <input type="submit" name="" id="submit" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!-- 版权信息 -->
+    <div class="info">
+      <div class="info-center">redvapour</div>
+    </div>
+  </body>
+</html>

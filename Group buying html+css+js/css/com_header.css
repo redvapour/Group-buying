@@ -1,0 +1,200 @@
+/* 头部导航 */
+.nav {
+    width: 100%;
+    height: 40px;
+    /* background: red; */
+}
+.nav-center {
+    width: 1190px;
+    height: 40px;
+    /* background: green; */
+    margin: 0 auto;
+}
+
+/* 导航条左侧 位置登入注册 */
+.nav-center-left {
+    width: 400px;
+    height: 40px;
+    font-size: 12px;
+    color: #999;
+    line-height: 40px;
+    /* background: pink; */
+    float: left;
+}
+.nav-center-left a {
+    color: #999;
+}
+.nav-center-left a:nth-child(2) {
+    color: #000;
+}
+.nav-center-left a:nth-child(3) {
+    color: #000;
+    border: 1px solid #E5E5E5;
+}
+.nav-center-left a:nth-child(5) {
+    padding: 0 15px;
+    color: #fe8c00;
+}
+.nav-center-left a:hover {
+    color:#FE8C00;
+}
+/* 导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航  */
+.nav-center-right {
+    width: 460px;
+    height: 40px;
+    /* background: pink; */
+    float: right;
+    font-size: 12px;
+    color: #E5E5E5;
+    line-height: 40px;
+}
+#dropdown li {
+    width: 90px;
+    height: 40px;
+    /* background: red; */
+    float: left;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+/* 我的美团 */
+#dropdown li:nth-child(1) {
+    width: 78px;
+}
+#dropdown li:nth-child(1) dl {
+    width: 78px;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    margin-left: -1px;
+    background: #fff;
+}
+#dropdown li:nth-child(1) dl a:hover{	
+	color:#FE8C00;
+}
+/* 手机APP */
+#dropdown li:nth-child(2) a:hover{	
+	color:#FE8C00;
+}
+/* 商家中心 */
+#dropdown li:nth-child(3) {
+    width: 88px;
+    padding: 0px 10px;
+}
+#dropdown li:nth-child(3) dl {
+    width: 108px;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    margin-left: -11px;
+    background: #fff;
+}
+#dropdown li:nth-child(3) dl a:hover{	
+	color:#FE8C00;
+}
+/* 美团规则 */
+#dropdown li:nth-child(4) {
+    width: 78px;
+}
+#dropdown li:nth-child(4) dl {
+    width: 78px;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    margin-left: -1px;
+    background: #fff;
+}
+#dropdown li:nth-child(4) dl a:hover{	
+	color:#FE8C00;
+}
+/* 网站导航 */
+#dropdown li:nth-child(5) {
+	width:80px;
+	height:40px;
+}
+#dropdown li:nth-child(5) dl {
+    width: 1180px;
+    height: 270px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #E5E5E5;
+    border-top: none;
+    margin-left: -1px;
+    background: #fff;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(1) {
+    width: 260px;
+    height: 220px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 30px; 
+}
+#dropdown li:nth-child(5) dl dd:nth-child(2) {
+    width: 170px;
+    height: 220px;
+    display: block;
+    position: absolute;
+    left: 280px;
+    top: 30px; 
+}
+#dropdown li:nth-child(5) dl dd:nth-child(3) {
+    width: 170px;
+    height: 220px;
+    display: block;
+    position: absolute;
+    left: 490px;
+    top: 30px;    
+}
+#dropdown li:nth-child(5) dl dd:nth-child(4) {
+    width: 550px;
+    height: 220px;
+    display: block;
+    position: absolute;
+    left: 630px;
+    top: 30px;    
+}
+#dropdown li:nth-child(5) dl dd span {
+    width: 85px;
+    height: 35px;
+    float: left;
+}
+#dropdown li:nth-child(5) dl dd span img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+/* 下拉框隐藏 */
+.displaynone {
+    display: none;
+    z-index: 2;
+}
+/* js控制代码 */
+#dropdown .show dd div{
+	color:#999;
+}
+#dropdown .show dd span{
+	color: #999;
+}
+#dropdown .show dd div:hover{
+	cursor: pointer;
+	color: #FE8C00;
+}
+#dropdown .show dd span:hover{
+	cursor: pointer;
+	color: #FE8C00;
+}
+#dropdown .show:hover {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    color: #fe8c00;
+    background: #fff; 
+    cursor: pointer;
+    /* 加边框后盒子会变大，放置盒子变化 */
+    margin-left: -1px;
+	margin-right: -1px;   
+}
+#dropdown .show a:hover{
+	color:#FE8C00;
+}
+#dropdown .show .displaynone{
+	display: block;
+}

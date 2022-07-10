@@ -1,0 +1,816 @@
+/* 头部导航 -->com_header.css*/
+
+/* 搜索区域 */
+.header {
+  width: 100%;
+  height: 157px;
+  background: white;
+  box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.014);
+}
+.header-center {
+  width: 1190px;
+  height: 157px;
+  /* background: blue; */
+  margin: 0 auto;
+}
+/* logo区域 */
+.header-center-left {
+  width: 294px;
+  height: 157px;
+  /* background: pink; */
+  font-size: 0;
+  float: left;
+}
+.header-center-left h1 a img {
+  width: 126px;
+  height: 46px;
+  padding: 28px 60px 40px 0;
+}
+/* 搜索框区域 */
+.header-center-center {
+  width: 550px;
+  height: 40px;
+  /* background: green; */
+  font-size: 0;
+  float: left;
+  margin-top: 28px;
+}
+.header-center-center input {
+  width: 437px;
+  height: 8px;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+}
+.header-center-center input:focus {
+  outline: none;
+}
+.header-center-center button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-left: 0px;
+  background: #ffc300;
+}
+
+/* 主题区域 */
+.bodyer {
+  width: 100%;
+  height: 427px;
+  /* background: red; */
+}
+.bodyer-center {
+  width: 1190px;
+  height: 427px;
+  /* background: green; */
+  margin: 0 auto;
+}
+/* 全部分类 */
+.bodyer-center-left {
+  width: 228px;
+  height: 473px;
+  /* background: pink; */
+  background: #fff;
+  float: left;
+  margin-top: -50px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+/* 全部分类详细效果 */
+.bodyer-center-left span:nth-child(1) {
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 15px;
+}
+/* li列表效果 */
+.bodyer-center-left ul li {
+  width: 218px;
+  height: 22px;
+  padding: 2px 0px 2px 12px;
+  cursor: pointer;
+}
+.bodyer-center-left ul li span {
+  font-size: 13px;
+  line-height: 22px;
+  color: #646464;
+  cursor: pointer;
+}
+.bodyer-center-left ul li b {
+  position: absolute;
+  right: 13px;
+  line-height: 22px;
+  color: #646464;
+  font-weight: 100;
+  cursor: pointer;
+}
+.bodyer-center-left ul li .hot {
+  font-size: 12px;
+  color: #222222;
+  background: #fff3cc;
+  border-radius: 10px;
+  padding: 0 7px;
+}
+/* hover改变 */
+.bodyer-center-left ul li:hover {
+  background: #fff3cc;
+}
+.bodyer-center-left ul li span:hover {
+  color: #000;
+  font-weight: 600;
+}
+.bodyer-center-left ul li b:hover {
+  color: #000;
+  font-weight: 400;
+}
+.bodyer-center-left ul li:hover .hot {
+  background: #fe8c00;
+}
+/*字体图标颜色的更改*/
+.icon-earth1 {
+  color: #ff8200;
+}
+.icon-bird {
+  color: #ffb500;
+}
+.icon-ipod11 {
+  color: #9b5e3e;
+}
+.icon-feed {
+  color: #ffb73f;
+}
+.icon-chat {
+  color: #ff3d17;
+}
+.icon-envelope {
+  color: #03a9f4;
+}
+.icon-phone {
+  color: #00bf96;
+}
+.icon-headphone1 {
+  color: #00bf96;
+}
+.icon-pin1 {
+  color: #ff4081;
+}
+.icon-file1 {
+  color: #ff4081;
+}
+.icon-twitter-old {
+  color: #ff4081;
+}
+.icon-share {
+  color: red;
+}
+.icon-enlarge {
+  color: #4fcbb0;
+}
+.icon-mug {
+  color: #4fcbb0;
+}
+.icon-camera4 {
+  color: #1aa9f4;
+}
+.icon-home {
+  color: #4fcbb0;
+}
+/* 全部分类侧边栏 */
+#dropright {
+  position: relative;
+}
+/* 隐藏区域公共样式 */
+#dropright li .allsort {
+  width: 400px;
+  height: 422px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 230px;
+  border: 1px solid #ccc;
+  border-left: none;
+  z-index: 3;
+}
+.allsort div {
+  width: 400px;
+  height: 50px;
+  /* background: red; */
+}
+.allsort div hr {
+  width: 350px;
+  margin-left: 25px;
+}
+.allsort div span a {
+  font-size: 16px;
+  color: #222;
+}
+.allsort div span:nth-child(2) a {
+  font-size: 14px;
+  line-height: 50px;
+  color: #222;
+  display: block;
+  float: right;
+  margin-right: 20px;
+  color: #646464;
+}
+.allsort .dropright_list {
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+}
+.allsort .dropright_list span {
+  width: 80px;
+  height: 30px;
+  display: block;
+  float: left;
+  color: #646464;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+.allsort .dropright_list span:hover {
+  cursor: pointer;
+  color: #ff8200;
+}
+/* 隐藏区域显示 */
+#dropright .show .allsort {
+  width: 400px;
+  height: 422px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 230px;
+  display: block;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+/* 中间区域 */
+.bodyer-center-center {
+  width: 710px;
+  height: 475px;
+  /* background: blue; */
+  float: left;
+  margin: -50px 8px 0px 8px;
+}
+.bodyer-center-center-top {
+  width: 710px;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+}
+.bodyer-center-center-top a:nth-child(1) {
+  padding-left: 45px;
+}
+.bodyer-center-center-top a {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 15px;
+}
+.bodyer-center-center-top a:hover {
+  color: #fe8c00;
+}
+/* 轮播区域 */
+.bodyer-center-center-bottom {
+  width: 710px;
+  height: 420px;
+  margin-top: 7px;
+  border: none;
+}
+/* 轮播图 */
+#carousel {
+  width: 550px;
+  height: 240px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+}
+#carousel a img {
+  width: 550px;
+  height: 240px;
+  background: red;
+}
+#left {
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  top: 100px;
+  left: 15px;
+  display: none;
+  background-color: #222;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  color: #eee;
+  opacity: 0.8;
+  user-select: none;
+}
+#right {
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  top: 100px;
+  right: 15px;
+  display: none;
+  background-color: #222;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  color: #eee;
+  opacity: 0.8;
+  user-select: none;
+}
+#number {
+  width: 120px;
+  height: 5px;
+  float: left;
+  position: absolute;
+  top: 220px;
+  left: 240px;
+}
+#number li {
+  list-style: none;
+  width: 15px;
+  height: 5px;
+  line-height: 2px;
+  text-align: center;
+  background-color: #3e3e3e;
+  color: #fff;
+  float: left;
+  font-size: 0;
+  margin-left: 5px;
+  opacity: 0.8;
+}
+/* 轮播区域其他图片 */
+.bodyer-center-center-bottom .leisure {
+  width: 140px;
+  height: 240px;
+  background: url("../images/lb2.jpg");
+  background-size: cover;
+  margin-left: 10px;
+  float: right;
+}
+.bodyer-center-center-bottom .hotel {
+  width: 270px;
+  height: 165px;
+  background: url("../images/lb3.png");
+  background-size: cover;
+  margin-top: 12px;
+  margin-left: 10px;
+  float: left;
+}
+.bodyer-center-center-bottom .topover {
+  width: 270px;
+  height: 165px;
+  background: url("../images/lb4.jpg");
+  background-size: cover;
+  margin-top: 12px;
+  margin-left: 10px;
+  float: left;
+}
+.bodyer-center-center-bottom .shopping {
+  width: 140px;
+  height: 165px;
+  background: url("../images/lb5.jpg");
+  background-size: cover;
+  margin-top: 12px;
+  margin-left: 10px;
+  float: left;
+}
+/* 登入和注册 */
+.bodyer-center-right {
+  width: 228px;
+  height: 419px;
+  /* background: black; */
+  float: left;
+  margin-top: 6px;
+}
+.bodyer-center-right-top {
+  width: 228px;
+  height: 238px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.bodyer-center-right-top-logo {
+  width: 55px;
+  height: 55px;
+  border: 4px solid #e5e5e5;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-image: url("../images/login.jpg");
+  background-size: cover;
+}
+.bodyer-center-right-top p {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  padding: 7px 0;
+}
+.bodyer-center-right-top-login {
+  width: 118px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 38px;
+  margin: 7px auto;
+}
+.bodyer-center-right-top-login a {
+  color: #000;
+}
+.bodyer-center-right-bottom {
+  width: 228px;
+  height: 163px;
+  margin-top: 14px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.bodyer-center-right-bottom-code {
+  width: 95px;
+  height: 95px;
+  background-image: url(../images/code.png);
+  background-size: cover;
+  margin: 10px auto;
+}
+.bodyer-center-right-bottom p {
+  font-size: 16px;
+}
+.bodyer-center-right-bottom span {
+  font-size: 12px;
+}
+.bodyer-center-right-bottom span:nth-child(3) {
+  color: #ec5330;
+}
+
+/* 猫眼电影 */
+.movie {
+  width: 100%;
+  height: 350px;
+  /* background: red; */
+  margin-top: 50px;
+}
+.movie-center {
+  width: 1190px;
+  height: 350px;
+  /* background: blue; */
+  margin: 0 auto;
+}
+/* 电影介绍 */
+.movie-center-top {
+  width: 1188px;
+  height: 42px;
+  line-height: 42px;
+  background: #fb3f60;
+  border: 1px solid #fb3f60;
+  border-radius: 5px 5px 0 0;
+}
+.movie-center-top ul li {
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  margin-left: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.movie-center-top ul li:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+.movie-center-top ul li:last-child {
+  float: right;
+  margin-right: 15px;
+}
+.movie-center-top .triangle {
+  display: none;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  content: "";
+  width: 1px;
+  height: 0px;
+  top: 35px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* 电影列表 */
+.movie-center-bottom {
+  width: 1188px;
+  height: 297px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.movie-center-bottom-hot,
+.movie-center-bottom-coming {
+  width: 99%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 0.5%;
+  position: relative;
+}
+.slider {
+  width: 200%;
+  height: 100%;
+  margin: 0 20px;
+  left: 0px;
+  position: relative;
+  transition: left 0.5s;
+  transition-timing-function: ease-out;
+}
+.silder-films {
+  float: left;
+  margin-top: 5px;
+  position: relative;
+}
+.silder-films-img {
+  float: left;
+  height: 297px;
+  width: 214px;
+  margin-right: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  border: 0px;
+}
+.films-mark {
+  width: 55px;
+  height: 20px;
+  top: 10px;
+  left: -6px;
+  position: absolute;
+}
+.film-intro {
+  width: 215px;
+  height: 120px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+.film-score {
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 15px;
+  font-weight: 800;
+}
+.film-score span {
+  font-size: 16px;
+  color: #fd9827;
+  font-weight: 800;
+}
+.film-name {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+.film-name p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+.buy-ticket {
+  position: relative;
+  top: -25px;
+  display: block;
+  background: #ff4949;
+  height: 25px;
+  width: 50px;
+  border-radius: 100px;
+  line-height: 25px;
+  float: right;
+  color: #fff;
+  margin-right: 8px;
+  font-size: 14px;
+  border-style: none;
+}
+.btn-left {
+  display: none;
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  top: 43%;
+  left: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+  color: #eee;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.btn-right {
+  display: none;
+  width: 40px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  top: 43%;
+  right: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+  color: #eee;
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* 推荐民宿 */
+.hotel {
+  width: 100%;
+  height: 710px;
+  /* background: red; */
+  margin-top: 50px;
+}
+.hotel-center {
+  width: 1190px;
+  height: 710px;
+  /* background: green; */
+  margin: 0 auto;
+}
+/* 民宿介绍 */
+.hotel-center-top {
+  width: 1188px;
+  height: 42px;
+  line-height: 42px;
+  background: #f2c146;
+  border: 1px solid #f2c146;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+.hotel-center-top #hotel-tab li {
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 15px;
+  position: relative;
+}
+.hotel-center-top div {
+  float: left;
+  color: #fff;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.hotel-center-top span {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  float: right;
+  margin-right: 15px;
+}
+#hotel-tab .triangle {
+  display: none;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  content: "";
+  width: 1px;
+  height: 0px;
+  top: 35px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* 民宿详情 */
+.hotel-center-bottom {
+  width: 1188px;
+  height: 650px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.hotel-center-bottom .hotellist {
+  display: none;
+}
+.hotel-center-bottom .hotellist div {
+  width: 370px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+}
+.hotel-center-bottom .hotellist div:nth-child(3n + 1) {
+  margin-left: 20px;
+}
+.hotel-center-bottom div a img {
+  width: 370px;
+  height: 208px;
+}
+.hotel-center-bottom div span {
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  /* 不换行 */
+  white-space: nowrap;
+  overflow: hidden;
+  /* 超出部分...显示 */
+  text-overflow: ellipsis;
+  margin: 5px 0;
+}
+.hotel-center-bottom div p {
+  color: #999;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.hotel-center-bottom div b {
+  color: #ff6600;
+  font-size: 22px;
+}
+/* 猜你喜欢 */
+.like {
+  width: 100%;
+  height: 860px;
+  /* background: red; */
+  margin-top: 50px;
+}
+.like-center {
+  width: 1190px;
+  height: 860px;
+  /* background: blue; */
+  margin: 0 auto;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+/* 猜你喜欢顶部 */
+.like-center-top {
+  width: 1188px;
+  height: 42px;
+  line-height: 42px;
+  background: #52b2d8;
+  border: 1px solid #52b2d8;
+  border-radius: 5px 5px 0 0;
+}
+.like-center-top span {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 15px;
+}
+.like-center-top span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 800;
+}
+/* 猜你喜欢列表  */
+.like-center-bottom {
+  width: 1190px;
+  height: 800px;
+}
+.like-center-bottom .list {
+  width: 213px;
+  height: 250px;
+  margin: 20px 0 0 20px;
+  border-radius: 5px;
+  float: left;
+}
+.like-center-bottom .list img {
+  width: 213px;
+  height: 119px;
+}
+.like-center-bottom .list div:nth-child(2) {
+  width: 213px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  margin: 10px 0;
+}
+.like-center-bottom .list div:nth-child(3) {
+  width: 213px;
+  height: 20px;
+  background: url("../images/star.jpg") no-repeat;
+  margin: 10px 0;
+}
+.like-center-bottom .list div:nth-child(4) {
+  width: 213px;
+  height: 20px;
+  color: #999;
+  font-size: 12px;
+  margin: 10px 0 -2px 0;
+}
+.like-center-bottom .list div:nth-child(5) {
+  width: 213px;
+  height: 22px;
+  color: #ff6600;
+  font-size: 22px;
+}
+.like-center-bottom .list div .money {
+  font-size: 16px;
+}

@@ -1,0 +1,257 @@
+/* 头部导航 -->com_header.css*/
+
+/* 搜索区域 */
+.header {
+  width: 100%;
+  height: 157px;
+  background: white;
+  box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.014);
+}
+.header-center {
+  width: 1190px;
+  height: 157px;
+  /* background: blue; */
+  margin: 0 auto;
+}
+/* logo区域 */
+.header-center-left {
+  width: 294px;
+  height: 157px;
+  /* background: pink; */
+  font-size: 0;
+  float: left;
+}
+.header-center-left h1 a img {
+  width: 126px;
+  height: 46px;
+  padding: 28px 60px 40px 0;
+}
+/* 搜索框区域 */
+.header-center-center {
+  width: 550px;
+  height: 40px;
+  /* background: green; */
+  font-size: 0;
+  float: left;
+  margin-top: 28px;
+}
+.header-center-center input {
+  width: 437px;
+  height: 8px;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+}
+.header-center-center input:focus {
+  outline: none;
+}
+.header-center-center button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-left: 0px;
+  background: #ffc300;
+}
+
+/* 城市联动列表 */
+.city {
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+}
+.city-center {
+  width: 1190px;
+  height: 800px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  background-color: #fff;
+}
+/* 第一张样式 */
+.wayone {
+  width: 1150px;
+  height: 100px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  /* border: 1px solid #ccc; */
+  margin: 20px;
+}
+.wayone-form {
+  width: 1150px;
+  height: 35px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  /* border: 1px solid green; */
+  margin-top: 30px;
+  z-index: 2;
+}
+select {
+  width: 100px;
+  height: 30px;
+}
+
+/* 第二种样式 */
+.waytwo {
+  width: 1150px;
+  height: 330px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  /* border: 1px solid #ccc; */
+  margin: 20px;
+  margin-bottom: 0;
+}
+.wtstyle {
+  width: 1150px;
+  height: 50px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  /* border:1px solid red; */
+}
+.titleSel {
+  border-bottom: 2px solid #ffc300;
+}
+#addr-choice {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+#title-wrap li,
+#addr-wrap li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#title-wrap li {
+  width: 163px;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 10px;
+}
+#addr-wrap li {
+  width: 83px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#addr-wrap li:hover {
+  background-color: #ffc300;
+}
+
+/* 第三种的样式 */
+.waythree {
+  width: 1150px;
+  height: 300px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  /* border:1px solid #ccc; */
+  /* margin: 20px; */
+  margin: 0 auto;
+}
+
+#data-order {
+  height: 30px;
+  /* background-color: #ffc300; */
+  display: flex;
+  justify-content: space-around;
+}
+#data-order li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+}
+#data-order li:hover {
+  background-color: #ffc300;
+}
+
+#data-show {
+  padding: 20px 10px;
+}
+
+#data-show dt {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #ffc300;
+}
+#data-show dd {
+  margin-top: 20px;
+}
+#data-show a {
+  display: inline-block;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  height: 20px;
+  overflow: hidden;
+  color: #222;
+  padding: 5px;
+}
+
+#data-show a:hover {
+  color: #000;
+  background-color: #ffc300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cityOn {
+  background-color: #fff;
+}
+
+/* 表单样式部分 */
+#addr-show,
+#addr-show02,
+#addr-show03,
+#addr-show-number {
+  width: 200px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #ffc300;
+  outline: none;
+  background-color: #ffc300;
+  margin: 0 20px;
+  color: #000;
+  cursor: pointer;
+}
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+/* 提交按钮 */
+#cityto {
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #ffc300;
+  outline: none;
+  background-color: #ffc300;
+  margin: 0 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+hr {
+  color: #ccc;
+  opacity: 0.5;
+}

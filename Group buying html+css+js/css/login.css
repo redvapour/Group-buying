@@ -1,0 +1,138 @@
+/* 头部导航条 */
+.nav {
+    height: 100px;
+    /* background-color: red; */
+}
+.nav-center {
+    width: 1190px;
+    height: 100px;
+    /* background-color: orange; */
+    margin: 0 auto;
+}
+/* logo区域 */
+.nav-center-left {
+    width: 294px;
+    height: 100px;
+    /* background: pink; */
+    font-size: 0;
+    float: left;
+}
+.nav-center-left h1 a img {
+    width: 126px;
+    height: 46px;
+    padding: 25px 0px 25px 40px;
+}
+/* 注册区域 */
+.nav-center-right {
+    width: 160px;
+    height: 24px;
+    line-height:20px;
+    font-size: 12px ;
+    color: #666;
+    margin-top: 40px;
+    float: right;
+}
+.nav-center-right a {
+    width: 40px;
+    height: 20px;
+    background-color: #ffd000;
+    color: #000;
+    text-align: center;
+    display: block;
+    float: right;
+}
+/* 登录区域 */
+.login {
+    width: 100%;
+    height: 550px;
+    background-color: #f7f8f8;
+}
+.login-center {
+    width: 1190px;
+    height: 480px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.login-left-img {
+    width: 500px;
+    height: 370px;
+    float: left;
+    margin: 60px 0 40px 100px;
+}
+.login-right-form {
+    width: 500px;
+    height: 480px;
+    float: left;
+}
+.login-right-form div {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.login-right-form div:hover {
+    border: 1px solid #f76120;
+}
+.login-right-form div:first-child {
+    border: none;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+.login-right-form div:nth-child(4) {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    text-align: right;
+    color: #fe8c00;
+}
+.login-right-form .right {
+    padding-left: 140px;
+}
+#username {
+    border: none;
+    width: 250px;
+    height: 38px;
+}
+.icon-locked {
+    display: inline-block;
+    padding-left: 15px;
+}
+#password {
+    border: none;
+    width: 250px;
+    height: 38px;
+    float:right;
+}
+#submit {
+    width: 300px;
+    height: 42px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    background: #ffc300;
+}
+
+/*控制提示文字的显示隐藏*/
+.display-none{
+    display:none;
+}
+.display-block{ 
+    display:block;
+}
+.display-inline{
+    display:inline-block;
+}
+.icon-times-circle{ 
+    color:red;
+}
+.icon-check-circle{ 
+    color:green;
+}
+/*禁用谷歌的默认选择效果*/
+input,textarea:focus {   
+    outline: none;   
+}  

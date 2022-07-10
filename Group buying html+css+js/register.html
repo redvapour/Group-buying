@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>注册</title>
+    <meta
+      name="description"
+      content="北京美团网精选北京美食餐厅,酒店预订,电影票,旅游景点,外卖订餐,北京团购信息,您可查询商家评价店铺信息。北京生活,下载美团官方APP ,吃喝玩乐1折起。"
+    />
+    <meta name="keywords" content="北京美食,北京酒店,北京团购" />
+    <!-- 网页图标 -->
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <!-- 基础样式 -->
+    <link rel="stylesheet" href="./css/bace.css" />
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="./font/icomoon/style.css" />
+    <!-- 注册页面样式 -->
+    <link rel="stylesheet" href="./css/register.css" />
+    <!-- 底部样式 -->
+    <link rel="stylesheet" href="./css/com_footer.css" />
+    <!-- 注册页面js -->
+    <script src="./js/register.js"></script>
+  </head>
+  <body>
+    <!-- 头部导航条 -->
+    <div class="nav">
+      <div class="nav-center">
+        <!-- 导航条左侧 logo -->
+        <div class="nav-center-left">
+          <h1>
+            <a href="index.html" title="美团购">
+              <img src="./images/logo.png" />美团购
+            </a>
+          </h1>
+        </div>
+        <!-- 导航条右侧 -->
+        <div class="nav-center-right">
+          已有美团账号？
+          <a href="./login.html?phone=13533333333&pass=521">登录</a>
+        </div>
+      </div>
+    </div>
+    <!-- 注册表单区域 -->
+    <div class="register">
+      <div class="register-center">
+        <div class="register-center-form">
+          <form action="">
+            <!-- 手机号输入 -->
+            手机号码 <input type="text" id="phone" />
+            <span class="display-none">
+              <i></i>
+            </span>
+            <br />
+            <!-- 动态码获取 -->
+            <!-- Button按钮的type有三个可选属性：Button，submit，reset，而Button按钮的type属性默认值是submit ，所以在没有指定type属性的情况下，点击Button按钮会触发提交form表单 -->
+            <button type="button">免费获取短信动态码</button>
+            <span class="display-none">
+              <i></i>
+            </span>
+            <br />
+            <!-- 动态码验证 -->
+            短信验证<input type="text" id="check_code" />
+            <span class="display-none">
+              <i></i>
+            </span>
+            <br />
+            <!-- 创建密码 -->
+            创建密码<input type="text" id="password" />
+            <br />
+            <div id="tips">
+              <b></b>
+              <b></b>
+              <b></b>
+              <b></b>
+            </div>
+            <br />
+            <!-- 确认密码 -->
+            确认密码<input type="password" id="passrepeat" />
+            <span class="display-none">
+              <i></i>
+            </span>
+            <br />
+            <!-- 提交按钮 -->
+            <!-- <input type="submit" id="frmContact" value="同意以下协议并注册" /> -->
+            <button id="frmContact">同意以下协议并注册</button>
+            <br />
+            <div id="agree"></div>
+            <p>
+              我已阅读并同意 <a href="">《美团用户服务协议》</a
+              ><a href="">《美团隐私政策》</a>
+              ，并授权美团使用该美团账号信息（如昵称、头像、收货地址）进行统一管理
+            </p>
+          </form>
+        </div>
+        <div class="register-center-right">
+          <img src="./images/register.png" alt="注册页面" />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- 版权信息 -->
+    <div class="info">
+      <div class="info-center">redvapour</div>
+    </div>
+    <script src="./js/register.js"></script>
+  </body>
+</html>

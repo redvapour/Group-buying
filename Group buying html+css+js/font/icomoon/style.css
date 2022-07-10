@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?88abqr');
+  src:  url('fonts/icomoon.eot?88abqr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?88abqr') format('truetype'),
+    url('fonts/icomoon.woff?88abqr') format('woff'),
+    url('fonts/icomoon.svg?88abqr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-feed:before {
+  content: "\e903";
+}
+.icon-bird:before {
+  content: "\e904";
+}
+.icon-chat:before {
+  content: "\e905";
+}
+.icon-envelope:before {
+  content: "\e906";
+}
+.icon-envelope1:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-ipod11:before {
+  content: "\e9a0";
+}
+.icon-headphone1:before {
+  content: "\e955";
+}
+.icon-earth1:before {
+  content: "\e9a3";
+}
+.icon-globe1:before {
+  content: "\e9a4";
+}
+.icon-pin1:before {
+  content: "\e9a6";
+}
+.icon-file1:before {
+  content: "\e9a5";
+}
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-twitter-old:before {
+  content: "\e901";
+}
+.icon-share:before {
+  content: "\e902";
+}
+.icon-feed1:before {
+  content: "\e909";
+}
+.icon-mouse:before {
+  content: "\e915";
+}
+.icon-cd:before {
+  content: "\e916";
+}
+.icon-floppy:before {
+  content: "\e917";
+}
+.icon-printer:before {
+  content: "\e91e";
+}
+.icon-pictures:before {
+  content: "\e920";
+}
+.icon-eye:before {
+  content: "\e921";
+}
+.icon-uniE922:before {
+  content: "\e922";
+}
+.icon-broadcast1:before {
+  content: "\e931";
+}
+.icon-calculator:before {
+  content: "\e932";
+}
+.icon-bug:before {
+  content: "\e938";
+}
+.icon-mine:before {
+  content: "\e939";
+}
+.icon-earth11:before {
+  content: "\e9a8";
+}
+.icon-globe11:before {
+  content: "\e9a7";
+}
+.icon-binocular:before {
+  content: "\e945";
+}
+.icon-location11:before {
+  content: "\e946";
+}
+.icon-bag:before {
+  content: "\e95c";
+}
+.icon-suitcase:before {
+  content: "\e95d";
+}
+.icon-card:before {
+  content: "\e95e";
+}
+.icon-book:before {
+  content: "\e95f";
+}
+.icon-gift:before {
+  content: "\e960";
+}
+.icon-lamp:before {
+  content: "\e961";
+}
+.icon-settings:before {
+  content: "\e962";
+}
+.icon-support:before {
+  content: "\e963";
+}
+.icon-cone:before {
+  content: "\e965";
+}
+.icon-locked:before {
+  content: "\e966";
+}
+.icon-unlocked:before {
+  content: "\e967";
+}
+.icon-key:before {
+  content: "\e968";
+}
+.icon-info:before {
+  content: "\e969";
+}
+.icon-clock:before {
+  content: "\e96a";
+}
+.icon-timer:before {
+  content: "\e96b";
+}
+.icon-food:before {
+  content: "\e96c";
+}
+.icon-mug1:before {
+  content: "\e96e";
+}
+.icon-cup:before {
+  content: "\e96f";
+}
+.icon-flag:before {
+  content: "\e975";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-hammer:before {
+  content: "\e996";
+}
+.icon-magic-wand:before {
+  content: "\e997";
+}
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-location1:before {
+  content: "\e948";
+}
+.icon-search1:before {
+  content: "\e987";
+}
+.icon-location2:before {
+  content: "\e949";
+}
+.icon-search2:before {
+  content: "\e988";
+}
+.icon-camera4:before {
+  content: "\f030";
+}
+.icon-info-circle:before {
+  content: "\f05a";
+}
+.icon-crosshairs:before {
+  content: "\f05b";
+}
+.icon-glass:before {
+  content: "\f000";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-tag:before {
+  content: "\f02b";
+}
+.icon-camera41:before {
+  content: "\f031";
+}
+.icon-times-circle:before {
+  content: "\f057";
+}
+.icon-check-circle:before {
+  content: "\f058";
+}
+.icon-times-circle-o:before {
+  content: "\f05c";
+}
+.icon-check-circle-o:before {
+  content: "\f05d";
+}

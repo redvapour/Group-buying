@@ -1,0 +1,171 @@
+/* 头部导航条 */
+.nav {
+  height: 100px;
+  /* background-color: red; */
+}
+.nav-center {
+  width: 1190px;
+  height: 100px;
+  /* background-color: orange; */
+  margin: 0 auto;
+}
+/* logo区域 */
+.nav-center-left {
+  width: 294px;
+  height: 100px;
+  /* background: pink; */
+  font-size: 0;
+  float: left;
+}
+.nav-center-left h1 a img {
+  width: 126px;
+  height: 46px;
+  padding: 25px 0px 25px 40px;
+}
+/* 登录区域 */
+.nav-center-right {
+  width: 160px;
+  height: 24px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666;
+  margin-top: 40px;
+  float: right;
+}
+.nav-center-right a {
+  width: 40px;
+  height: 20px;
+  background-color: #ffd000;
+  color: #000;
+  text-align: center;
+  display: block;
+  float: right;
+}
+/* 注册表单区域 */
+.register {
+  width: 100%;
+  height: 550px;
+  /* background-color: blue; */
+  background-color: #f7f8f8;
+}
+.register-center {
+  width: 1190px;
+  height: 500px;
+  /* background-color: green; */
+  background-color: #fff;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+.register-center-form {
+  width: 550px;
+  height: 480px;
+  /* border: 1px solid red; */
+  margin-left: 70px;
+  float: left;
+}
+.register-center-form input {
+  width: 260px;
+  height: 36px;
+  border: 1px solid #aaa;
+  margin: 15px 10px;
+}
+.register-center-form button {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #aaa;
+  margin-left: 78px;
+}
+.register-center-form button:hover {
+  cursor: pointer;
+}
+#frmContact {
+  width: 180px;
+  height: 40px;
+  margin-left: 78px;
+  border: 1px solid #ffbe00;
+  background-color: #ffbe00;
+  color: #222;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#frmContact:hover {
+  cursor: pointer;
+}
+.register-center-right {
+  width: 550px;
+  height: 480px;
+  float: left;
+}
+.register-center-right img {
+  margin: 100px 90px;
+}
+#agree {
+  display: block;
+  border: 1px solid #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 60px;
+  margin-top: 25px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 15px;
+}
+.active {
+  background-color: #fe8c00;
+}
+.register-center-form p {
+  width: 265px;
+  height: 80px;
+  margin: 25px 85px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.register-center-form a {
+  color: #fe8c00;
+  font-size: 13px;
+}
+
+/* 密码强弱 */
+#tips {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  width: 260px;
+  border-right: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  background: #eeeeee;
+  margin-left: 80px;
+}
+#tips b {
+  float: left;
+  width: 63px;
+  height: 20px;
+  color: white;
+  background: #eeeeee;
+  margin-right: 2px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/*禁用谷歌的默认选择效果*/
+input,
+textarea:focus {
+  outline: none;
+}
+/*控制提示文字的显示隐藏*/
+.display-inline {
+  display: inline-block;
+}
+/*字体图标的颜色改变*/
+.icon-times-circle {
+  color: red;
+}
+.icon-check-circle {
+  color: green;
+}

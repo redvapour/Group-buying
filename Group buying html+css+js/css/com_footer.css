@@ -1,0 +1,114 @@
+
+/* 美团副导航 */
+.navbar {
+    width: 100%;
+    height: 300px;
+    /* background: red; */
+    margin-top: 50px;
+}
+.navbar-center {
+    width: 1190px;
+    height: 300px;
+    /* background: green; */
+    margin: 0 auto;
+    border: 1px solid #E5E5E5;
+    background: #fff;
+}
+/* 导航开始 */
+.navbar-center-top  {
+    width: 1155px;
+    height: 45px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    margin-left: 35px;
+}
+.navbar-center-bottom .listname {
+    width: 100px;
+    height: 70px;
+    font-size: 14px;
+    color: #222;
+    margin: 14px 0  0 36px;
+    float: left;
+}
+.navbar-center-bottom .list {
+    width: 1050px;
+    height: 70px;
+    font-size: 14px;
+    color: #222;
+    text-align: left;
+    float: left;
+    border-bottom:1px solid #E5E5E5 ;
+    margin-top: 14px;
+}
+.navbar-center-bottom .list:nth-child(6){
+    border-bottom: none ;
+    /* background: red; */
+}
+.navbar-center-bottom .list ul li {
+    width: 100px;
+    height: 35px;
+    /* line-height: 35px; */
+    display: inline-block;
+    font-size: 14px;
+    color: #222;   
+}
+.navbar-center-bottom .list ul li:hover {
+    color: #FF6600;
+    cursor: pointer;
+}
+/* 底部链接 */
+.footer {
+    width: 100%;
+    height: 450px;
+    /* background: red; */
+    margin-top: 50px;
+}
+.footer-center {
+    width: 1190px;
+    height: 450px;
+    /* background: blue; */
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+}
+.footer-center-content {
+    width: 150px;
+    height: 170px;
+    margin: 50px 0 0 70px;
+    float: left;
+}
+.footer-center-content ul b{
+    font-size:16px;
+    color:rgb(102, 102, 102);
+    line-height:22px;
+    margin: 10px 0;
+}
+.footer-center-content ul li{
+    height: 20px;
+    font-size:12px;
+    color:rgb(102, 102, 102);
+    line-height:20px;
+    margin: 5px 0;
+}
+.footer-center-content ul li:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+/* 版权信息 */
+.info {
+    width: 100%;
+    height: 50px;
+    /* background: red; */
+    /* margin-top: 50px; */
+}
+.info-center {
+    width: 1190px;
+    height: 50px;
+    /* background: blue; */
+    margin: 0 auto;
+    /* border: 1px solid #e5e5e5; */
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}

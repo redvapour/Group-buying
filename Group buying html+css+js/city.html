@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北京美团网-北京美食_酒店_旅游_团购_电影_吃喝玩乐</title>
+    <meta
+      name="description"
+      content="北京美团网精选北京美食餐厅,酒店预订,电影票,旅游景点,外卖订餐,北京团购信息,您可查询商家评价店铺信息。北京生活,下载美团官方APP ,吃喝玩乐1折起。"
+    />
+    <meta name="keywords" content="北京美食,北京酒店,北京团购" />
+    <!-- 网页图标 -->
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <!-- 基础样式 -->
+    <link rel="stylesheet" href="./css/bace.css" />
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="./font/icomoon/style.css" />
+    <!-- 头部样式 -->
+    <link rel="stylesheet" href="./css/com_header.css" />
+    <!-- 城市样式 -->
+    <link rel="stylesheet" href="./css/city.css" />
+    <!-- 底部样式 -->
+    <link rel="stylesheet" href="./css/com_footer.css" />
+  </head>
+  <body>
+    <!-- 头部导航条 -->
+    <div class="nav">
+      <div class="nav-center">
+        <!-- 导航条左侧 位置登入注册 -->
+        <div class="nav-center-left">
+          <span class="icon-location"></span>
+          <a href="#">北京</a>
+          <a href="#">切换城市</a>
+          <a href="#">[门头沟区大厂回族自治县廊坊]</a>
+          <a href="#">立即登入</a>
+          <a href="#">注册</a>
+        </div>
+        <!-- 导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航 -->
+        <div class="nav-center-right">
+          <ul id="dropdown">
+            <li>
+              <a href="#" id="myconts">我的美团</a>
+              <dl class="displaynone mygroup">
+                <dd>
+                  <a href="#">我的订单</a>
+                </dd>
+                <dd>
+                  <a href="#">我的收藏</a>
+                </dd>
+                <dd>
+                  <a href="#">抵用券</a>
+                </dd>
+                <dd>
+                  <a href="#">账户设置</a>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <a href="#" class="myconts">手机APP</a>
+            </li>
+            <li>
+              <a href="#" id="scenter">商家中心</a>
+              <dl class="displaynone store-center">
+                <dd>
+                  <a href="#">美团餐饮商户中心</a>
+                </dd>
+                <dd>
+                  <a href="#">登录商家中心</a>
+                </dd>
+                <dd>
+                  <a href="#">美团智能收银</a>
+                </dd>
+                <dd>
+                  <a href="#">我想合作</a>
+                </dd>
+                <dd>
+                  <a href="#">手机免费开店</a>
+                </dd>
+                <dd>
+                  <a href="#">到店综合业务招募</a>
+                </dd>
+                <dd>
+                  <a href="#">餐饮合作社招募</a>
+                </dd>
+                <dd>
+                  <a href="#">商家申请开票</a>
+                </dd>
+                <dd>
+                  <a href="#">免费合作美团排队</a>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <a href="#" id="grouprule">美团规则</a>
+              <dl class="displaynone rulecenter">
+                <dd>
+                  <a href="#">规则中心</a>
+                </dd>
+                <dd>
+                  <a href="#">规则目录</a>
+                </dd>
+                <dd>
+                  <a href="#">规则评议院</a>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <a href="#" id="groupnav">网站导航</a>
+              <dl class="displaynone groupnavlist">
+                <dd>
+                  <div>
+                    <a href="#">酒店旅游</a>
+                  </div>
+                  <span>国际机票</span>
+                  <span>火车票</span>
+                  <span>民宿</span>
+                  <span>经济型酒店</span>
+                  <span>主题酒店</span>
+                  <span>商务酒店</span>
+                  <span>公寓</span>
+                  <span>豪华酒店</span>
+                  <span>客栈</span>
+                  <span>青年旅社</span>
+                  <span>度假酒店</span>
+                  <span>别墅</span>
+                  <span>农家院</span>
+                </dd>
+                <dd>
+                  <div>
+                    <a href="#">吃美食</a>
+                  </div>
+                  <span>烤鱼</span>
+                  <span>特色小吃</span>
+                  <span>烧烤</span>
+                  <span>自助餐</span>
+                  <span>火锅</span>
+                  <span>代金券</span>
+                </dd>
+                <dd>
+                  <div>
+                    <a href="#">看电影</a>
+                  </div>
+                  <span>热映电影</span>
+                  <span>热门影院</span>
+                  <span>热映电影口碑榜</span>
+                  <span>最受期待电影</span>
+                  <span>国内票房榜</span>
+                  <span>北美票房榜</span>
+                  <span>电影排行榜</span>
+                </dd>
+                <dd>
+                  <div>
+                    <a href="#">手机应用</a>
+                  </div>
+                  <span>
+                    <img src="./images/app1.png" alt="美团" />
+                  </span>
+                  <span>
+                    <img src="./images/app2.png" alt="美团" />
+                  </span>
+                  <span>
+                    <img src="./images/app3.png" alt="美团" />
+                  </span>
+                  <span>
+                    <img src="./images/app4.png" alt="美团" />
+                  </span>
+                  <span>
+                    <img src="./images/app5.png" alt="美团" />
+                  </span>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 搜索区域 -->
+    <div class="header">
+      <div class="header-center">
+        <!-- logo区域 -->
+        <div class="header-center-left">
+          <h1>
+            <a href="index.html" title="美团购">
+              <img src="./images/logo.png" />美团购
+            </a>
+          </h1>
+        </div>
+        <!-- 搜索区域 -->
+        <div class="header-center-center">
+          <input type="text" placeholder="搜索商家或地点" />
+          <button>
+            <span class="icon-search"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- 三级联动城市列表 -->
+    <div class="city">
+      <div class="city-center">
+        <!-- 第一种实现方式 -->
+        <div class="wayone">
+          省市区三级联动第一种：
+          <div class="wayone-form">
+            <form action="#">
+              <label for="addr-show">
+                您选择的是：
+                <input type="text" value="" id="addr-show" />
+              </label>
+              <!-- 省份选择 -->
+              <select id="prov" onchange="showCity(this)">
+                <option value="">请选择省份</option>
+              </select>
+              <!-- 城市选择 -->
+              <select id="city" onchange="showCountry(this)">
+                <option value="">请选择城市</option>
+              </select>
+              <!-- 县区选择 -->
+              <select id="country" onchange="selecCountry(this)">
+                <option value="">请选择县区</option>
+              </select>
+              <button type="button" class="btn met1" onclick="showAddr()">
+                确定
+              </button>
+              <button type="button" id="cityto">提交</button>
+            </form>
+          </div>
+          <br>
+          <hr>
+        </div>
+       
+        <!-- 第二种实现方式 -->
+        <div class="waytwo">
+          <div class="wtstyle">省市区三级联动第二种:</div>
+          <label for="addr-show02"
+            >您选择的是：
+            <input type="text" id="addr-show02" />
+          </label>
+          <button type="button" class="btn met2" disabled>确定</button>
+          <br />
+          <br />
+          <hr>
+          <div id="addr-choice">
+            <ul id="title-wrap">
+              <li value="0">省份</li>
+              <li value="1">城市</li>
+              <li value="2">县区</li>
+            </ul>
+            <div id="show-panel">
+              <ul id="addr-wrap"></ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <!-- 第三种实现方式 -->
+        <div class="waythree">
+          <div class="wtstyle"> 省市区三级联动第三种:</div>
+          <label for="addr-show03">您选择的是：
+              <input type="text" id="addr-show03">
+          </label>
+          <button type="button" class="btn met2" disabled>确定</button>
+          <br>
+          <br/>
+          <div id="data-wrap">
+              <ul id="data-order">
+                  <li value='0'>热门</li>
+                  <li value='1'>A</li>
+                  <li value='2'>B</li>
+                  <li value='3'>C</li>
+                  <li value='4'>D</li>
+                  <li value='5'>E</li>
+                  <li value='6'>F</li>
+                  <li value='7'>G</li>
+                  <li value='8'>H</li>
+                  <li value='9'>J</li>
+                  <li value='10'>K</li>
+                  <li value='11'>L</li>
+                  <li value='12'>M</li>
+                  <li value='13'>N</li>
+                  <li value='14'>P</li>
+                  <li value='15'>Q</li>
+                  <li value='16'>R</li>
+                  <li value='17'>S</li>
+                  <li value='18'>T</li>
+                  <li value='19'>W</li>
+                  <li value='20'>X</li>
+                  <li value='21'>Y</li>
+                  <li value='22'>Z</li>
+              </ul>
+              <hr>
+              <div id="data-show"></div>
+          </div>
+      </div>
+    </div>
+    <!-- 底部连接 -->
+    <div class="footer">
+      <div class="footer-center">
+        <div class="footer-center-content">
+          <ul>
+            <b>用户帮助</b>
+            <li>申请退款</li>
+            <li>常见问题</li>
+            <li>用户协议</li>
+            <li>隐私政策</li>
+            <li>反诈骗公告</li>
+            <li>消费者权益保障</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>商家合作</b>
+            <li>美食商家入驻(非外卖)</li>
+            <li>美团外卖开店</li>
+            <li>美团收银官网</li>
+            <li>美团配送合作申请</li>
+            <li>美团餐饮学院</li>
+            <li>酒店商家入驻</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>合作商招募</b>
+            <li>美团外卖合作商招募</li>
+            <li>到店餐饮合作商招募</li>
+            <li>到店综合业务合作商招募</li>
+            <li>美团联盟</li>
+            <li>美团收银招募线上分销商</li>
+            <li>美团收银合作商招募</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>关注美团</b>
+            <li>美团新浪微博</li>
+            <li>常见问题</li>
+            <li>用户协议</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>消费者服务热线</b>
+            <li>外卖消费者:10109777</li>
+            <li>猫眼消费者:10105335</li>
+            <li>其他消费者:10107888</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>美团服务</b>
+            <li>美团外卖</li>
+            <li>美团酒店</li>
+            <li>猫眼电影</li>
+            <li>美团配送</li>
+            <li>美团云</li>
+            <li>大众点评</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>商家合作</b>
+            <li>境内度假商家入驻</li>
+            <li>综合商家入驻</li>
+            <li>美团民宿房东</li>
+            <li>商家入驻</li>
+            <li>商家开票</li>
+            <li>申请美团智能收银机</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>美团规则</b>
+            <li>规则中心</li>
+            <li>规则评议院</li>
+          </ul>
+        </div>
+        <div class="footer-center-content">
+          <ul>
+            <b>投诉举报专区</b>
+            <li>违法和不良信息举报电话:</li>
+            <li>4006018900</li>
+            <li>举报邮箱:</li>
+            <li>tousujubao@meituan.com</li>
+            <li>网上有害信息举报</li>
+            <li>商家自助入驻美团入口</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 版权信息 -->
+    <div class="info">
+      <div class="info-center">redvapour</div>
+    </div>
+    <script type="text/javascript" src="./js/city/city.js"></script>
+    <script type="text/javascript" src="./js/city/city02.js"></script>
+    <script src="./js/city/cityWayOne.js"></script>
+    <script src="./js/city/cityWayTwo.js"></script>
+    <script src="./js/city/cityWayThree.js"></script>
+    <script src="./js/city/citySubmit.js"></script>
+  </body>
+</html>
