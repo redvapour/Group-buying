@@ -1,5 +1,7 @@
 # Group-buying
 
+[在线预览](http://redvapour.top:51023/)（please关闭广告拦截插件，会造成部分图片加载失败，blocked:other错误）
+
 ## 1.使用手册
 
 1. 进入首页
